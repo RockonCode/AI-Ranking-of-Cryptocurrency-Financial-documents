@@ -1,4 +1,3 @@
-
 # AI-Ranking-of-Cryptocurrency-Financial-documents
 
 ## Overview
@@ -14,7 +13,7 @@ based on financial news content.
 - [Installation](#installation)
 - [Usage](#usage)
 - [implementation](#implementaion)
-- [Evaluation Metrics](#evaluation metrics)
+- [Evaluation Metrics](#evaluationmetrics)
 
 ## Project Description
 This project aims to develop and evaluate a Retrieval-Augmented Generation (RAG) framework for ranking cryptocurrency-related financial news articles. The research involves a comprehensive literature review of RAG frameworks, followed by the manual compilation and preprocessing of a detailed dataset of news articles, including headlines, full text, and mentions of cryptocurrencies like Bitcoin, Ethereum, Binance Coin, Ripple, and Solana. The RAG model will be implemented using ColBERT, T5, and Crossencoder models to identify the top 20 most relevant documents for specific cryptocurrency financial queries. Performance will be assessed using metrics such as NDCG, MAP, Recall@K, MRR, and Precision@K. A comparative analysis will be conducted to evaluate and identify the best model for effectively ranking financial documents within this domain.
